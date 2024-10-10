@@ -26,8 +26,8 @@ This application integrates with Shopify to send WhatsApp notifications for vari
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/whatsapp-notification-app.git
-   cd whatsapp-notification-app
+   git clone https://github.com/boga-venu-dev/Whatsapp-api-client
+   cd Whatsapp-api-client
    ```
 
 2. Install dependencies:
