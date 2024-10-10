@@ -1,6 +1,6 @@
-# WhatsApp Notification App for Shopify
+# Whatsapp-api-client for Shopify
 
-This application integrates with Shopify to send WhatsApp notifications for various events such as order confirmations, abandoned carts, and delivery updates. It's designed to run alongside an existing order tracking application.
+This application integrates with Shopify to send WhatsApp notifications for various events such as order confirmations, abandoned carts, and delivery updates. 
 
 ## Features
 
