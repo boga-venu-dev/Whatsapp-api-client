@@ -5,6 +5,7 @@ const config = require('./config');
 const messageRoutes = require('./routes/messageRoutes');
 const webhookRoutes = require('./routes/webhookRoutes');
 const dashboardRoutes = require('./routes/dashboardRoutes');
+const settingsRoutes = require('./routes/settingsRoutes');
 const errorHandler = require('./middleware/errorHandler');
 
 const app = express();
@@ -17,6 +18,7 @@ app.use(morgan('dev'));
 app.use(`${config.baseUrl}/api/messages`, messageRoutes);
 app.use(`${config.baseUrl}/api/webhook`, webhookRoutes);
 app.use(`${config.baseUrl}/api/dashboard`, dashboardRoutes);
+app.use(`${config.baseUrl}/api/settings`, settingsRoutes);
 
 // Error handling middleware
 app.use(errorHandler);
