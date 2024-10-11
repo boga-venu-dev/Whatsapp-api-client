@@ -1,0 +1,19 @@
+.messages-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.messages-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.messages-form {
+  margin-bottom: 30px;
+}
+
+.messages-list {
+  margin-top: 30px;
+}

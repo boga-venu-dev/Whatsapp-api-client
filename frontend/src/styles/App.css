@@ -1,0 +1,37 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-header {
+  background-color: #282c34;
+  padding: 20px 0;
+}
+
+.app-nav {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+}
+
+.app-nav li {
+  margin: 0 15px;
+}
+
+.app-nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.app-nav a:hover {
+  color: #61dafb;
+}
+
+.app-content {
+  flex-grow: 1;
+  padding: 20px;
+}

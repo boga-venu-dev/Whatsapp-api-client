@@ -1,0 +1,26 @@
+.message-list {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.message-list h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.message-list ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.message-list li {
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.message-list li:last-child {
+  border-bottom: none;
+}

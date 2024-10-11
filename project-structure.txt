@@ -1,0 +1,28 @@
+frontend/
+├── public/
+│   ├── index.html
+│   └── favicon.ico
+├── src/
+│   ├── components/
+│   │   ├── MessageForm.js
+│   │   ├── MessageList.js
+│   │   └── Dashboard.js
+│   ├── pages/
+│   │   ├── Home.js
+│   │   ├── Messages.js
+│   │   └── Login.js
+│   ├── styles/
+│   │   ├── index.css
+│   │   ├── App.css
+│   │   ├── MessageForm.css
+│   │   ├── MessageList.css
+│   │   └── Dashboard.css
+│   ├── services/
+│   │   └── api.js
+│   ├── utils/
+│   │   └── auth.js
+│   ├── App.js
+│   ├── index.js
+│   └── reportWebVitals.js
+├── package.json
+└── .env
