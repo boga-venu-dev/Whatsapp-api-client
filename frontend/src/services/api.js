@@ -26,4 +26,10 @@ export const getMessageTemplates = () =>
 export const login = (username, password) =>
   api.post('/auth/login', { username, password });
 
+export const getSettings = () =>
+  api.get('/settings');
+
+export const updateSettings = (settings) =>
+  api.put('/settings', settings);
+
 export default api;
